@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Document</title>
+    <script>
+        $.ajax({
+            type: "GET",
+            url: "/test?title_give=Matrix",
+            data: {},
+            success: function(response){
+            console.log(response)
+            }
+        })
+    </script>
+
+</head>
+<body>
+    <h1>I made a about!</h1>
+</body>
+</html>
